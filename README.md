@@ -27,11 +27,20 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-### String interpolation
+### [Text interpolation](https://angular.dev/guide/templates/interpolation)
 
 It is the way to send data from our component to the view. Using the double braces symbol `{{ }}``, you can print the value of a variable or call a function within the HTML code.
 
 ```html
 <h2>{{ title }}</h2>
 <h3>{{ myFunction(); }}</h3>
+```
+
+### [Property binding](https://angular.dev/guide/templates/property-binding)
+
+It is the way to send data from our component to the view. Using the square brackets symbol `[ ]`, you can print the value of a variable or call a function within the HTML code.
+
+```html
+<h2 [innerText]="title"></h2>
+<h3 [innerText]="myFunction();"></h3>
 ```
