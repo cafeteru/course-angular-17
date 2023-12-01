@@ -9,12 +9,12 @@ import { Component } from '@angular/core';
   styleUrl: './labs.component.scss'
 })
 export class LabsComponent {
-  welcome = 'Bienvenido a los laboratorios de Angular';
+  welcome = "Welcome to Angular's labs!";
   tasks = [
-    'Instalar Angular CLI',
-    'Crear una aplicación',
-    'Crear un componente',
-    'Generar un servicio',
+    'Install Angular CLI',
+    'Create an application',
+    'Create a component',
+    'Generate a service',
   ];
 
   name = 'Iván';
@@ -22,6 +22,6 @@ export class LabsComponent {
   img = 'https://picsum.photos/200/300';
 
   clickHandler() {
-    alert('Hola');
+    alert('Hello from the ts file');
   }
 }
