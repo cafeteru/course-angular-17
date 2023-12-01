@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-labs',
@@ -16,4 +16,12 @@ export class LabsComponent {
     'Crear un componente',
     'Generar un servicio',
   ];
+
+  name = 'Iván';
+  age = 32;
+  img = 'https://picsum.photos/200/300';
+
+  clickHandler() {
+    alert('Hola');
+  }
 }
